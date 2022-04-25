@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema targetNamespace="http://www.scit.wlv.ac.uk/~in6659/address.xsd" elementFormDefault="qualified" xmlns="http://www.w3.org/2001/XMLSchema" xmlns:kb="http://www.scit.wlv.ac.uk/~in6659/address.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+   <element name="address" type="kb:addressType"/>
+
+
+
+    <complexType name="addressType">
+    <sequence>
+    	<element name="houseNumber" type="integer" maxOccurs="1" minOccurs="1"></element>
+    	<element name="street" type="string" maxOccurs="1" minOccurs="1"></element>
+    	<element name="city" type="string" maxOccurs="1" minOccurs="1"></element>
+    	<element name="postcode" type="kb:postcodeType" maxOccurs="1"		minOccurs="1">
+    	</element>
+    </sequence>
+    </complexType>
+
+   
+
+    <simpleType name="postcodeType">
+    	<restriction base="string">
+    		<pattern
+    			value="[a-zA-Z]{1,2}[1-9][0-9]+\s[1-9][a-zA-Z]{2}">
+    		</pattern>
+    	</restriction>
+    </simpleType>
+</schema>

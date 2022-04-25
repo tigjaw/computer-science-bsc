@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kb:address xmlns:kb="http://www.scit.wlv.ac.uk/~in6659/address.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.scit.wlv.ac.uk/~in6659/address.xsd address.xsd ">
+  <kb:houseNumber>23</kb:houseNumber>
+  <kb:street>Wolverine Avenue</kb:street>
+  <kb:city>Wolverhampton</kb:city>
+  <kb:postcode>WV63 9XQ</kb:postcode>
+</kb:address>

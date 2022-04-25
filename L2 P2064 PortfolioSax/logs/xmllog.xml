@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="ISO-8859-1"?><Logging_HTTP_Requests><HTTP_Exchange><INFO> Date/Time: 18/03/2010 20:20:14 </INFO><RECIEVED> GET /page.html HTTP/1.1 </RECIEVED><REQUESTED> /page.html </REQUESTED><RESPONSE> HTTP/1.0 200 OK Date: Fri, 19 Feb 2010 10:00:00 GMT Content-Type: text/html Content-Length: 109 </RESPONSE><OUTPUT> page.html Found and Output. </OUTPUT><INFO> Exchange Complete - Successful </INFO></HTTP_Exchange><HTTP_Exchange><INFO> Date/Time: 18/03/2010 20:20:51 </INFO><RECIEVED> GET /index.html HTTP/1.1 </RECIEVED><REQUESTED> /index.html </REQUESTED><RESPONSE> HTTP/1.0 200 OK Date: Fri, 19 Feb 2010 10:00:00 GMT Content-Type: text/html Content-Length: 111 </RESPONSE><OUTPUT> index.html Found and Output. </OUTPUT><INFO> Exchange Complete - Successful </INFO></HTTP_Exchange><HTTP_Exchange><INFO> Date/Time: 18/03/2010 20:21:42 </INFO><RECIEVED> GET /bla.html HTTP/1.1 </RECIEVED><REQUESTED> /bla.html </REQUESTED><ERROR> Error Finding Requested Page, returning error 404. </ERROR><RESPONSE> HTTP/1.0 404 Not Found Date: Fri, 19 Feb 2010 10:00:00 GMT Content-Type: text/html Content-Length: 163 </RESPONSE><OUTPUT> error 404 output. </OUTPUT><INFO> Exchange Complete - Unsuccessful </INFO></HTTP_Exchange><HTTP_Exchange><INFO> Date/Time: Tue, 13 04 2010 23:10:57 </INFO><RECIEVED> GET /index.html HTTP/1.1 </RECIEVED><REQUESTED> /index.html </REQUESTED><RESPONSE> HTTP/1.0 200 OK Date: Tue, 13 04 2010 23:10:57 GMT Content-Type: text/html Content-Length: 111 </RESPONSE><OUTPUT> index.html Found and Output. </OUTPUT><INFO> Exchange Complete - Successful </INFO></HTTP_Exchange><HTTP_Exchange><INFO> Date/Time: Tue, 13 04 2010 23:19:36 </INFO><RECIEVED> GET /index.html HTTP/1.1 </RECIEVED><REQUESTED> /index.html </REQUESTED><RESPONSE> HTTP/1.0 200 OK Date: Tue, 13 04 2010 23:19:36 GMT Content-Type: text/html Content-Length: 111 </RESPONSE><OUTPUT> index.html Found and Output. </OUTPUT><INFO> Exchange Complete - Successful </INFO></HTTP_Exchange>
+
+<HTTP_Exchange>
+<INFO> Date/Time: Tue, 13 04 2010 23:19:48 </INFO>
+<RECIEVED> GET /bla.html HTTP/1.1 </RECIEVED>
+<REQUESTED> /bla.html </REQUESTED>
+<ERROR> Error Finding Requested Page, returning error 404. </ERROR>
+<RESPONSE> HTTP/1.0 404 Not Found Date: Tue, 13 04 2010 23:19:48 GMT Content-Type: text/html Content-Length: 163 </RESPONSE>
+<OUTPUT> Error 404 output. </OUTPUT>
+<INFO> Exchange Complete - Unsuccessful </INFO>
+</HTTP_Exchange>
+
+</Logging_HTTP_Requests>
