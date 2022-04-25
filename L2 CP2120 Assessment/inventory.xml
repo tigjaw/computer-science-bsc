@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<java version="1.6.0_03" class="java.beans.XMLDecoder"> 
+ <object class="java.util.LinkedList"> 
+  <void method="add"> 
+   <object class="petsToGo.Bird"> 
+    <void property="age"> 
+     <object class="petsToGo.Age"> 
+      <void property="dob"> 
+       <object class="java.util.GregorianCalendar"> 
+        <void property="time"> 
+         <object class="java.util.Date"> 
+          <long>1069113600000</long> 
+         </object> 
+        </void> 
+       </object> 
+      </void> 
+     </object> 
+    </void> 
+    <void property="canFly"> 
+     <object id="Trilean0" class="petsToGo.Trilean" method="valueOf"> 
+      <string>yes</string> 
+     </object> 
+    </void> 
+    <void property="canSing"> 
+     <object id="Trilean1" class="petsToGo.Trilean" method="valueOf"> 
+      <string>no</string> 
+     </object> 
+    </void> 
+    <void property="cost"> 
+     <object class="petsToGo.Money"/> 
+    </void> 
+    <void property="fluVac"> 
+     <object idref="Trilean0"/> 
+    </void> 
+    <void property="gender"> 
+     <object id="Gender0" class="petsToGo.Gender" method="valueOf"> 
+      <string>male</string> 
+     </object> 
+    </void> 
+    <void property="nameType"> 
+     <string>Pidgeon</string> 
+    </void> 
+    <void property="origin"> 
+     <string>England</string> 
+    </void> 
+    <void property="price"> 
+     <object class="petsToGo.Money"/> 
+    </void> 
+   </object> 
+  </void> 
+  <void method="add"> 
+   <object class="petsToGo.Reptile"> 
+    <void property="age"> 
+     <object class="petsToGo.Age"> 
+      <void property="dob"> 
+       <object class="java.util.GregorianCalendar"> 
+        <void property="time"> 
+         <object class="java.util.Date"> 
+          <long>1111622400000</long> 
+         </object> 
+        </void> 
+       </object> 
+      </void> 
+     </object> 
+    </void> 
+    <void property="cost"> 
+     <object class="petsToGo.Money"/> 
+    </void> 
+    <void property="gender"> 
+     <object id="Gender1" class="petsToGo.Gender" method="valueOf"> 
+      <string>female</string> 
+     </object> 
+    </void> 
+    <void property="isPoisonous"> 
+     <object idref="Trilean0"/> 
+    </void> 
+    <void property="length"> 
+     <object class="petsToGo.IntAboveZero"/> 
+    </void> 
+    <void property="nameType"> 
+     <string>iguana</string> 
+    </void> 
+    <void property="petID"> 
+     <int>1</int> 
+    </void> 
+    <void property="price"> 
+     <object class="petsToGo.Money"/> 
+    </void> 
+    <void property="temp"> 
+     <object class="petsToGo.Temp"> 
+      <void property="temp"> 
+       <int>55</int> 
+      </void> 
+     </object> 
+    </void> 
+   </object> 
+  </void> 
+  <void method="add"> 
+   <object class="petsToGo.Mammal"> 
+    <void property="age"> 
+     <object class="petsToGo.Age"> 
+      <void property="dob"> 
+       <object class="java.util.GregorianCalendar"> 
+        <void property="time"> 
+         <object class="java.util.Date"> 
+          <long>1152054000000</long> 
+         </object> 
+        </void> 
+       </object> 
+      </void> 
+     </object> 
+    </void> 
+    <void property="cage"> 
+     <object class="petsToGo.Cage" method="valueOf"> 
+      <string>No_Cage</string> 
+     </object> 
+    </void> 
+    <void property="cost"> 
+     <object class="petsToGo.Money"/> 
+    </void> 
+    <void property="gender"> 
+     <object idref="Gender0"/> 
+    </void> 
+    <void property="isNeutered"> 
+     <object idref="Trilean0"/> 
+    </void> 
+    <void property="isRodent"> 
+     <object idref="Trilean1"/> 
+    </void> 
+    <void property="nameType"> 
+     <string>Dog</string> 
+    </void> 
+    <void property="petID"> 
+     <int>2</int> 
+    </void> 
+    <void property="price"> 
+     <object class="petsToGo.Money"/> 
+    </void> 
+   </object> 
+  </void> 
+  <void method="add"> 
+   <object class="petsToGo.Marine"> 
+    <void property="age"> 
+     <object class="petsToGo.Age"> 
+      <void property="dob"> 
+       <object class="java.util.GregorianCalendar"> 
+        <void property="time"> 
+         <object class="java.util.Date"> 
+          <long>1169337600000</long> 
+         </object> 
+        </void> 
+       </object> 
+      </void> 
+     </object> 
+    </void> 
+    <void property="cost"> 
+     <object class="petsToGo.Money"/> 
+    </void> 
+    <void property="foodType"> 
+     <object class="petsToGo.FoodType" method="valueOf"> 
+      <string>flakes</string> 
+     </object> 
+    </void> 
+    <void property="gender"> 
+     <object idref="Gender1"/> 
+    </void> 
+    <void property="minSpace"> 
+     <object class="petsToGo.IntAboveZero"/> 
+    </void> 
+    <void property="nameType"> 
+     <string>Tang</string> 
+    </void> 
+    <void property="petID"> 
+     <int>3</int> 
+    </void> 
+    <void property="price"> 
+     <object class="petsToGo.Money"/> 
+    </void> 
+    <void property="salinity"> 
+     <object class="petsToGo.Salinity"> 
+      <void property="salinity"> 
+       <int>60</int> 
+      </void> 
+     </object> 
+    </void> 
+   </object> 
+  </void> 
+  <void method="add"> 
+   <object class="petsToGo.Freshwater"> 
+    <void property="age"> 
+     <object class="petsToGo.Age"> 
+      <void property="dob"> 
+       <object class="java.util.GregorianCalendar"> 
+        <void property="time"> 
+         <object class="java.util.Date"> 
+          <long>1186959600000</long> 
+         </object> 
+        </void> 
+       </object> 
+      </void> 
+     </object> 
+    </void> 
+    <void property="cost"> 
+     <object class="petsToGo.Money"/> 
+    </void> 
+    <void property="dechlorinated"> 
+     <object idref="Trilean0"/> 
+    </void> 
+    <void property="foodType"> 
+     <object class="petsToGo.FoodType" method="valueOf"> 
+      <string>pellets</string> 
+     </object> 
+    </void> 
+    <void property="gender"> 
+     <object idref="Gender0"/> 
+    </void> 
+    <void property="minSpace"> 
+     <object class="petsToGo.IntAboveZero"/> 
+    </void> 
+    <void property="nameType"> 
+     <string>Carp</string> 
+    </void> 
+    <void property="petID"> 
+     <int>4</int> 
+    </void> 
+    <void property="price"> 
+     <object class="petsToGo.Money"/> 
+    </void> 
+   </object> 
+  </void> 
+ </object> 
+</java> 

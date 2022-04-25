@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<java version="1.6.0_03" class="java.beans.XMLDecoder"> 
+ <object class="java.util.LinkedList"> 
+  <void method="add"> 
+   <object class="petsToGo.Customer"> 
+    <void property="contact"> 
+     <object class="petsToGo.ContactInfo"> 
+      <void property="address"> 
+       <object class="petsToGo.Address"> 
+        <void property="city"> 
+         <string>Birmingham</string> 
+        </void> 
+        <void property="county"> 
+         <string>West Midlands</string> 
+        </void> 
+        <void property="postCode"> 
+         <string>BM55LL</string> 
+        </void> 
+        <void property="streetName1"> 
+         <string>Street Road</string> 
+        </void> 
+        <void property="streetName2"> 
+         <string>Branvale</string> 
+        </void> 
+       </object> 
+      </void> 
+      <void property="telephone"> 
+       <string>01902592348</string> 
+      </void> 
+     </object> 
+    </void> 
+    <void property="forenames"> 
+     <string>Gene</string> 
+    </void> 
+    <void property="surname"> 
+     <string>Poole</string> 
+    </void> 
+   </object> 
+  </void> 
+  <void method="add"> 
+   <object class="petsToGo.Customer"> 
+    <void property="contact"> 
+     <object class="petsToGo.ContactInfo"> 
+      <void property="address"> 
+       <object class="petsToGo.Address"> 
+        <void property="city"> 
+         <string>Manchester</string> 
+        </void> 
+        <void property="county"> 
+         <string>Manchester</string> 
+        </void> 
+        <void property="postCode"> 
+         <string>MC96RT</string> 
+        </void> 
+        <void property="streetName1"> 
+         <string>Gar Street</string> 
+        </void> 
+        <void property="streetName2"> 
+         <string>Hobfield</string> 
+        </void> 
+       </object> 
+      </void> 
+      <void property="telephone"> 
+       <string>16487254986</string> 
+      </void> 
+     </object> 
+    </void> 
+    <void property="forenames"> 
+     <string>Bob</string> 
+    </void> 
+    <void property="surname"> 
+     <string>Bobinson</string> 
+    </void> 
+   </object> 
+  </void> 
+  <void method="add"> 
+   <object class="petsToGo.Customer"> 
+    <void property="contact"> 
+     <object class="petsToGo.ContactInfo"> 
+      <void property="address"> 
+       <object class="petsToGo.Address"> 
+        <void property="city"> 
+         <string>Norwich</string> 
+        </void> 
+        <void property="county"> 
+         <string>Norwich</string> 
+        </void> 
+        <void property="postCode"> 
+         <string>NR39GS</string> 
+        </void> 
+        <void property="streetName1"> 
+         <string>Red Road</string> 
+        </void> 
+        <void property="streetName2"> 
+         <string>Writon</string> 
+        </void> 
+       </object> 
+      </void> 
+      <void property="telephone"> 
+       <string>55447012458</string> 
+      </void> 
+     </object> 
+    </void> 
+    <void property="forenames"> 
+     <string>Jon</string> 
+    </void> 
+    <void property="surname"> 
+     <string>Jackel</string> 
+    </void> 
+   </object> 
+  </void> 
+  <void method="add"> 
+   <object class="petsToGo.Customer"> 
+    <void property="contact"> 
+     <object class="petsToGo.ContactInfo"> 
+      <void property="address"> 
+       <object class="petsToGo.Address"> 
+        <void property="city"> 
+         <string>Wolverhampton</string> 
+        </void> 
+        <void property="county"> 
+         <string>West Midlands</string> 
+        </void> 
+        <void property="postCode"> 
+         <string>WV73MM</string> 
+        </void> 
+        <void property="streetName1"> 
+         <string>45 Rookery Road</string> 
+        </void> 
+        <void property="streetName2"> 
+         <string>Wednesfield</string> 
+        </void> 
+       </object> 
+      </void> 
+      <void property="telephone"> 
+       <string>01954875945</string> 
+      </void> 
+     </object> 
+    </void> 
+    <void property="forenames"> 
+     <string>Robert</string> 
+    </void> 
+    <void property="surname"> 
+     <string>Devlin</string> 
+    </void> 
+   </object> 
+  </void> 
+ </object> 
+</java> 

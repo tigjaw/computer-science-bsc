@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="17.0.1" class="java.beans.XMLDecoder">
+ <array class="chainsaw.Chainsaw" length="25">
+  <void index="0">
+   <object class="chainsaw.Chainsaw">
+    <void property="colour">
+     <string>Yellow</string>
+    </void>
+    <void property="cutLength">
+     <double>25.4</double>
+    </void>
+    <void property="hasSafetyCutOut">
+     <boolean>true</boolean>
+    </void>
+    <void property="isUsed">
+     <boolean>true</boolean>
+    </void>
+    <void property="manufacturer">
+     <string>Bosch</string>
+    </void>
+    <void property="numberOfTeeth">
+     <int>50</int>
+    </void>
+    <void property="weight">
+     <double>4.57</double>
+    </void>
+   </object>
+  </void>
+  <void index="1">
+   <object class="chainsaw.Chainsaw">
+    <void property="colour">
+     <string>Red</string>
+    </void>
+    <void property="cutLength">
+     <double>37.5</double>
+    </void>
+    <void property="id">
+     <int>1</int>
+    </void>
+    <void property="isDeleted">
+     <boolean>true</boolean>
+    </void>
+    <void property="manufacturer">
+     <string>Wolf</string>
+    </void>
+    <void property="numberOfTeeth">
+     <int>120</int>
+    </void>
+    <void property="weight">
+     <double>6.2</double>
+    </void>
+   </object>
+  </void>
+  <void index="2">
+   <object class="chainsaw.Chainsaw">
+    <void property="colour">
+     <string>blue</string>
+    </void>
+    <void property="cutLength">
+     <double>30.2</double>
+    </void>
+    <void property="hasSafetyCutOut">
+     <boolean>true</boolean>
+    </void>
+    <void property="id">
+     <int>2</int>
+    </void>
+    <void property="isUsed">
+     <boolean>true</boolean>
+    </void>
+    <void property="manufacturer">
+     <string>Wolf</string>
+    </void>
+    <void property="numberOfTeeth">
+     <int>70</int>
+    </void>
+    <void property="weight">
+     <double>5.5</double>
+    </void>
+   </object>
+  </void>
+  <void index="3">
+   <object class="chainsaw.Chainsaw">
+    <void property="colour">
+     <string>red</string>
+    </void>
+    <void property="cutLength">
+     <double>27.6</double>
+    </void>
+    <void property="id">
+     <int>3</int>
+    </void>
+    <void property="isUsed">
+     <boolean>true</boolean>
+    </void>
+    <void property="manufacturer">
+     <string>Decker</string>
+    </void>
+    <void property="numberOfTeeth">
+     <int>60</int>
+    </void>
+    <void property="weight">
+     <double>4.2</double>
+    </void>
+   </object>
+  </void>
+  <void index="4">
+   <object class="chainsaw.Chainsaw">
+    <void property="colour">
+     <string>Yellow</string>
+    </void>
+    <void property="cutLength">
+     <double>100.0</double>
+    </void>
+    <void property="hasSafetyCutOut">
+     <boolean>true</boolean>
+    </void>
+    <void property="id">
+     <int>4</int>
+    </void>
+    <void property="manufacturer">
+     <string>Dagenham Saw</string>
+    </void>
+    <void property="numberOfTeeth">
+     <int>123</int>
+    </void>
+    <void property="weight">
+     <double>12.0</double>
+    </void>
+   </object>
+  </void>
+ </array>
+</java>

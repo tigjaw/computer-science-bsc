@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<java version="1.6.0_03" class="java.beans.XMLDecoder"> 
+ <object class="java.util.LinkedList"> 
+  <void method="add"> 
+   <object class="petsToGo.Supplier"> 
+    <void property="address"> 
+     <object class="petsToGo.Address"> 
+      <void property="city"> 
+       <string>Essex</string> 
+      </void> 
+      <void property="county"> 
+       <string>Essex</string> 
+      </void> 
+      <void property="postCode"> 
+       <string>CM13 2DR</string> 
+      </void> 
+      <void property="streetName1"> 
+       <string>53 Orchard Lane</string> 
+      </void> 
+      <void property="streetName2"> 
+       <string>Brentwood</string> 
+      </void> 
+     </object> 
+    </void> 
+    <void property="phoneNumber"> 
+     <string>01456821547</string> 
+    </void> 
+    <void property="supplierName"> 
+     <string>Pet Suppliers</string> 
+    </void> 
+   </object> 
+  </void> 
+  <void method="add"> 
+   <object class="petsToGo.Supplier"> 
+    <void property="address"> 
+     <object class="petsToGo.Address"> 
+      <void property="city"> 
+       <string>Livingston</string> 
+      </void> 
+      <void property="county"> 
+       <string>Livingston</string> 
+      </void> 
+      <void property="postCode"> 
+       <string>EH54 8RL</string> 
+      </void> 
+      <void property="streetName1"> 
+       <string>10 Lindsay Square</string> 
+      </void> 
+      <void property="streetName2"> 
+       <string>Deans Industrial Estate</string> 
+      </void> 
+     </object> 
+    </void> 
+    <void property="phoneNumber"> 
+     <string>04875612485</string> 
+    </void> 
+    <void property="supplierID"> 
+     <int>1</int> 
+    </void> 
+    <void property="supplierName"> 
+     <string>Birds &apos;R Us</string> 
+    </void> 
+   </object> 
+  </void> 
+  <void method="add"> 
+   <object class="petsToGo.Supplier"> 
+    <void property="address"> 
+     <object class="petsToGo.Address"> 
+      <void property="city"> 
+       <string>Burnley</string> 
+      </void> 
+      <void property="county"> 
+       <string>Lancashire</string> 
+      </void> 
+      <void property="postCode"> 
+       <string>BN3 1JF</string> 
+      </void> 
+      <void property="streetName1"> 
+       <string>63 Horsefair Green</string> 
+      </void> 
+      <void property="streetName2"> 
+       <string>Old Radnor</string> 
+      </void> 
+     </object> 
+    </void> 
+    <void property="phoneNumber"> 
+     <string>01458725648</string> 
+    </void> 
+    <void property="supplierID"> 
+     <int>2</int> 
+    </void> 
+    <void property="supplierName"> 
+     <string>We Sell Pets</string> 
+    </void> 
+   </object> 
+  </void> 
+  <void method="add"> 
+   <object class="petsToGo.Supplier"> 
+    <void property="address"> 
+     <object class="petsToGo.Address"> 
+      <void property="city"> 
+       <string>Wolverhampton</string> 
+      </void> 
+      <void property="county"> 
+       <string>West Midlands</string> 
+      </void> 
+      <void property="postCode"> 
+       <string>WV78HN</string> 
+      </void> 
+      <void property="streetName1"> 
+       <string>45 Palesly Lane</string> 
+      </void> 
+      <void property="streetName2"> 
+       <string>Parkfield</string> 
+      </void> 
+     </object> 
+    </void> 
+    <void property="phoneNumber"> 
+     <string>01902584695</string> 
+    </void> 
+    <void property="supplierID"> 
+     <int>3</int> 
+    </void> 
+    <void property="supplierName"> 
+     <string>Pet Sellers</string> 
+    </void> 
+   </object> 
+  </void> 
+ </object> 
+</java> 
