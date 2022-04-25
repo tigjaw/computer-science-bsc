@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<java version="1.6.0_03" class="java.beans.XMLDecoder"> 
+ <object class="chainsaw.Chainsaw"> 
+  <void property="colour"> 
+   <string>Green</string> 
+  </void> 
+  <void property="cutLength"> 
+   <double>46.5</double> 
+  </void> 
+  <void property="hasSafetyCutOut"> 
+   <boolean>true</boolean> 
+  </void> 
+  <void property="id"> 
+   <int>1</int> 
+  </void> 
+  <void property="isExhibited"> 
+   <boolean>true</boolean> 
+  </void> 
+  <void property="manufacturer"> 
+   <string>Java</string> 
+  </void> 
+  <void property="numberOfTeeth"> 
+   <int>55</int> 
+  </void> 
+  <void property="weight"> 
+   <double>12.2</double> 
+  </void> 
+ </object> 
+</java> 
