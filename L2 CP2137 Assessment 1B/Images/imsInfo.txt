@@ -1,0 +1,7 @@
+// imsInfo.txt images
+s catRight.gif 6
+s catLeft.gif 6
+s kaboom.gif 6
+s garfield.png 1
+s MammothLeft.png 4
+s MammothRight.png 4

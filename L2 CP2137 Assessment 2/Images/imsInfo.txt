@@ -1,0 +1,13 @@
+// imsInfo.txt images
+s catRight.gif 6
+s catLeft.gif 6
+s kaboom.gif 6
+s MammothLeft.png 4
+s MammothRight.png 4
+s tree.gif 1
+s mountainsnear.gif 1
+s mountainsfar.gif 1
+s thesun.gif 1
+s grasspatch.gif 1
+s hut.gif 1
+s controlsF1.gif 1
